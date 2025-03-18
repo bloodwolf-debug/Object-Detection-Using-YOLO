@@ -14,13 +14,15 @@ This project implements **real-time object detection** using **YOLOv8** and Open
 Make sure you have Python **3.13+** installed. Then, install the required packages:
 ```bash
 pip install ultralytics opencv-python face-recognition numpy
-
+```
 
 ### 2️⃣ Clone the Repository & Navigate to It
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 cd YOUR_REPOSITORY
+```
 
 ### 3️⃣ Run the Real-Time Detection
+```bash
 python real_time_detection.py
 
