@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-# Load YOLOv8 Nano model (fastest for real-time)
+# Load YOLOv8 Nano model (fastest for real-time, tradeoff with accuracy)
 model = YOLO("yolov8n.pt")  
 
 # Open the webcam (0 = default camera)
