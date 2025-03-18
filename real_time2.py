@@ -1,8 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-# Load YOLOv8 Nano model (fastest for real-time detection)
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov8m.pt") # Using yolo8m for a balanced between accuracy and optimization
 
 # Open the webcam
 cap = cv2.VideoCapture(0)
