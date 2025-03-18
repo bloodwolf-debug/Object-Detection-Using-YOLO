@@ -19,7 +19,7 @@ pip install ultralytics opencv-python face-recognition numpy
 ### 2️⃣ Clone the Repository & Navigate to It
 ```bash
 git clone https://github.com/bloodwolf-debug/Object-Detection-Using-YOLO.git
-cd YOUR_REPOSITORY
+cd Object-Detection-Using-YOLO
 ```
 
 ### 3️⃣ Run the Real-Time Detection
